@@ -4,6 +4,11 @@ public class Main
 {
   public static void main(String[] args)
   {
+    Dog dog1 = new Dog();
+    dog1.setName("fido");
+    System.out.println(dog1.getName());
+
+    
     Scanner sc = new Scanner(System.in);
     String input = "";
     while (!input.equals("q"))
